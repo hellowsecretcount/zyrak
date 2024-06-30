@@ -24,8 +24,8 @@
 
 > [!WARNING]
 > If you are here because you have suffered this theft, I am not responsible for any damage caused to your computer or information.
->
-> <h2>Index:</h2>
+
+<h2>Index:</h2>
 <ul>
   <li><a href="#features">Features</a></li>
   <li><a href="#builder-settings">Builder Settings</a></li>
