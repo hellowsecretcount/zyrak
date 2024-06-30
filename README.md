@@ -96,8 +96,6 @@
 <img src="https://cdn.discordapp.com/attachments/1238599610763837461/1257077167645261974/image.png?ex=668317d8&is=6681c658&hm=94f4d1465b2a08739ddc6c470c8c9a1033a347d7951eeb0630783bfd08e4739a&" alt="Application Screenshot">
 <img src="https://cdn.discordapp.com/attachments/1238599610763837461/1257078859002679416/image.png?ex=6683196b&is=6681c7eb&hm=d82da97eae148ffaac06083a623f7d6e36cbdc3e60f35e1211d243b3855b6e16&" alt="Application Screenshot">
 <img src="https://cdn.discordapp.com/attachments/1238599610763837461/1257080322357461133/image.png?ex=66831ac8&is=6681c948&hm=736331bba92154dd640323d5c5c67babc3d4b8948b50aad98705a1078e56b6e9&" alt="Application Screenshot">
-<img src="https://i.imgur.com/EbdxRed.png" alt="Application Screenshot">
-<img src="https://camo.githubusercontent.com/d68dcb24f480ccfcd376b6bbedfffec5bbeaf836983ed35636357bb6498bcc30/68747470733a2f2f692e696d6775722e636f6d2f684672797561522e706e67" alt="Application Screenshot">
 
 
 </body>
